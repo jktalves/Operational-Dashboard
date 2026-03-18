@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.spec
+build/
+dist/
+logs/
+Painel/logs/
+certs/
+.env
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+# VSCode
+.vscode/
+# Arquivos temporários
+*.tmp
+*.temp
+# Arquivos de snapshot ou cache
+*.sqlite3
+*.db
+# Arquivos de sistema
+*.~lock.*
