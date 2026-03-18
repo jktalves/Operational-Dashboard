@@ -1,5 +1,5 @@
-/* Garante que a coluna de atendimentos do dia tenha altura máxima e overflow para scroll automático */
-#rows-3 {
+/* Garante que as colunas de atendimentos tenham altura máxima e overflow para scroll automático */
+#rows-1, #rows-2, #rows-3 {
   max-height: 420px; /* ajuste conforme necessário para sua tela */
   overflow: auto;
 }

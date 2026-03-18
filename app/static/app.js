@@ -214,7 +214,8 @@ function startAutoScroll(container) {
 
 // Ativa auto-scroll apenas na coluna "ATENDIMENTOS DO DIA" com 6+ chamados e overflow real.
 function updateAutoScroll(columnTitle, container, rowCount) {
-  if (columnTitle !== "ATENDIMENTOS DO DIA" || rowCount < 5) {
+  // Ativa auto-scroll em todas as colunas com 5+ linhas e overflow real.
+  if (rowCount < 5) {
     stopAutoScroll(container);
     return;
   }
